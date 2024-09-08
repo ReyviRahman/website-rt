@@ -1,0 +1,75 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Testing
+coverage/
+*.test.js
+*.spec.js
+
+# Build
+build/
+dist/
+.out/
+.next/
+.nyc_output/
+public/
+
+# Misc
+.env
+.DS_Store
+*.log
+.vscode/
+.idea/
+*.swp
+*.swo
+.eslintcache
+*.bak
+
+# React specific
+node_modules/
+build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional:
+# Uncomment if using Docker
+# docker-compose.override.yml
+# Dockerfile
+
+# Optional: Uncomment if using JetBrains IDEs like WebStorm or PhpStorm
+# .idea/
+
+# Optional: Uncomment if using VSCode
+# .vscode/
+
+# Optional: Uncomment if using MacOS
+# .DS_Store
+
+# Optional: Uncomment if using Linux
+# .Trash-*
+
+# Optional: Ignore local environment settings
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Ignore build output
+build/
+dist/
+
+# Ignore the .env file for sensitive credentials
+.env
