@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Notes List</h1>
+      <h1>Notes List APP js React</h1>
       <ul>
         {notes.length > 0 ? (
           notes.map(note => (
