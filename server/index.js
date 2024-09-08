@@ -10,7 +10,11 @@ if (process.env.NODE_ENV != "production") {
 require("dotenv").config();
 
 const app = express()
-app.use(cors())
+
+app.use(cors({
+  origin: 'https://website-rt.vercel.app'
+}))
+
 app.use(express.json())
 
 connectToDb()
